@@ -1,0 +1,19 @@
+experiment,method,PER,snr_db,blocks
+tuned_ofdm,CP4-4pilot-8BPSK estimate CFO,0.22,10.0,300
+tuned_ofdm,CP4-4pilot-8BPSK oracle CFO,0.23333333333333334,10.0,300
+tuned_ofdm,CP4-8pilot-4QPSK estimate CFO,0.38,10.0,300
+tuned_ofdm,CP4-8pilot-4QPSK oracle CFO,0.44,10.0,300
+tuned_ofdm,CP2-4pilot-8BPSK estimate CFO,0.21666666666666667,10.0,300
+tuned_ofdm,CP2-4pilot-8BPSK oracle CFO,0.22333333333333333,10.0,300
+oracle_gap,full oracle,0.01,10.0,300
+oracle_gap,oracle CFO + unknown I/Q/DC,0.06,10.0,300
+oracle_gap,oracle I/Q/DC + no CFO oracle,0.023333333333333334,10.0,300
+tuned_ofdm,CP4-4pilot-8BPSK estimate CFO,0.21666666666666667,10.0,300
+tuned_ofdm,CP4-4pilot-8BPSK oracle CFO,0.23666666666666666,10.0,300
+tuned_ofdm,CP4-8pilot-4QPSK estimate CFO,0.39,10.0,300
+tuned_ofdm,CP4-8pilot-4QPSK oracle CFO,0.41,10.0,300
+tuned_ofdm,CP2-4pilot-8BPSK estimate CFO,0.19333333333333333,10.0,300
+tuned_ofdm,CP2-4pilot-8BPSK oracle CFO,0.21666666666666667,10.0,300
+oracle_gap,full oracle,0.02,10.0,300
+oracle_gap,oracle CFO + unknown I/Q/DC,0.08,10.0,300
+oracle_gap,oracle I/Q/DC + no CFO oracle,0.03,10.0,300

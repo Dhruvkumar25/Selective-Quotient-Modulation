@@ -1,0 +1,4 @@
+snr_db,comparison,paired_delta_mean,paired_95CI_halfwidth_t_df2,seeds
+10.0,SQM - OFDM_pilot_free_marginal,0.0,0.0,1
+10.0,SQM - OFDM_practical_unknown_IQ_DC,-0.25,0.0,1
+10.0,SQM - OFDM_rate_matched_pilot_coded,-0.25,0.0,1

@@ -1,0 +1,115 @@
+{
+  "validation_seeds": [
+    91013,
+    91059,
+    91151
+  ],
+  "final_seeds": [
+    13,
+    59,
+    151
+  ],
+  "candidate_ranks": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "physical_cfo_support_deg_per_sample": [
+    -4,
+    4
+  ],
+  "decoder_grid_deg_per_sample": [
+    -5,
+    5
+  ],
+  "controller_parameters": {
+    "window_W": 8,
+    "ewma_alpha": 0.2,
+    "tau_gap": 0.14134186804294588,
+    "tau_residual_high": 0.26720509529113773,
+    "tau_residual_low": 0.12304098606109619,
+    "minimum_dwell_packets": 2,
+    "initial_rank": 4,
+    "rank_min": 3,
+    "rank_max": 6,
+    "confidence_refinement_threshold": 0.0607187569141388,
+    "ucb_exploration_coefficient": 0.7,
+    "eta": 1e-12
+  },
+  "snr_lookup_rank": {
+    "5.0": 4,
+    "7.0": 4,
+    "10.0": 5,
+    "15.0": 6
+  },
+  "state_oracle_rank": {
+    "5dB_30ns": 4,
+    "7dB_30ns": 4,
+    "10dB_30ns": 4,
+    "10dB_60ns": 5,
+    "10dB_100ns": 5,
+    "15dB_60ns": 6,
+    "15dB_100ns": 6
+  },
+  "definition": {
+    "switch_rate": "selected-rank transitions divided by T-1; controller switch rate is also reported separately",
+    "adaptation_delay": "first packet offset after a regime boundary with 10 consecutive packets at the held-out oracle rank; mean over internal boundaries",
+    "steady_state_window": "packets 100 through end of each 300-packet canonical segment",
+    "approx_macs": "score evaluations times 2*L*selected_rank; S6 is an upper-bound approximation"
+  },
+  "traces": {
+    "canonical": {
+      "states": [
+        [
+          5.0,
+          30.0
+        ],
+        [
+          10.0,
+          60.0
+        ],
+        [
+          15.0,
+          100.0
+        ],
+        [
+          7.0,
+          30.0
+        ]
+      ],
+      "lengths": [
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    "randomized_unequal": {
+      "states": [
+        [
+          10.0,
+          30.0
+        ],
+        [
+          15.0,
+          60.0
+        ],
+        [
+          7.0,
+          30.0
+        ],
+        [
+          10.0,
+          100.0
+        ]
+      ],
+      "lengths": [
+        180,
+        240,
+        300,
+        360
+      ]
+    }
+  }
+}

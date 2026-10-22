@@ -1,0 +1,3 @@
+case,message_i,message_j,ambient_grassmann_dimension,tangent_dim_i,tangent_dim_j,generic_intersection_lower_bound,smallest_principal_angle_rad,max_singular_value_tangent_overlap
+0,54,89,26,21,21,16,0.5158338608304952,0.8698817142597552
+1,130,200,26,22,22,18,0.4446740670371732,0.9027509178627453

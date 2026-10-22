@@ -1,0 +1,5 @@
+snr_db,method,PER_mean,PER_95CI_halfwidth_t_df2,seeds,blocks_total
+10.0,OFDM_pilot_free_marginal,0.05,0.0,1,20
+10.0,OFDM_practical_unknown_IQ_DC,0.3,0.0,1,20
+10.0,OFDM_rate_matched_pilot_coded,0.3,0.0,1,20
+10.0,SQM_rank4,0.05,0.0,1,20

@@ -1,0 +1,31 @@
+condition_number,seed,receiver,PER,blocks
+1.0,13,legacy scalar metric,0.19583333333333333,1200
+1.0,13,covariance-aware metric,0.19583333333333333,1200
+1.0,59,legacy scalar metric,0.1875,1200
+1.0,59,covariance-aware metric,0.1875,1200
+1.0,151,legacy scalar metric,0.2225,1200
+1.0,151,covariance-aware metric,0.2225,1200
+1.25,13,legacy scalar metric,0.20916666666666667,1200
+1.25,13,covariance-aware metric,0.20916666666666667,1200
+1.25,59,legacy scalar metric,0.215,1200
+1.25,59,covariance-aware metric,0.215,1200
+1.25,151,legacy scalar metric,0.205,1200
+1.25,151,covariance-aware metric,0.205,1200
+1.5,13,legacy scalar metric,0.21833333333333332,1200
+1.5,13,covariance-aware metric,0.21833333333333332,1200
+1.5,59,legacy scalar metric,0.225,1200
+1.5,59,covariance-aware metric,0.225,1200
+1.5,151,legacy scalar metric,0.21083333333333334,1200
+1.5,151,covariance-aware metric,0.21083333333333334,1200
+2.0,13,legacy scalar metric,0.2733333333333333,1200
+2.0,13,covariance-aware metric,0.2733333333333333,1200
+2.0,59,legacy scalar metric,0.28583333333333333,1200
+2.0,59,covariance-aware metric,0.28583333333333333,1200
+2.0,151,legacy scalar metric,0.25,1200
+2.0,151,covariance-aware metric,0.25,1200
+3.0,13,legacy scalar metric,0.3566666666666667,1200
+3.0,13,covariance-aware metric,0.3566666666666667,1200
+3.0,59,legacy scalar metric,0.37333333333333335,1200
+3.0,59,covariance-aware metric,0.37333333333333335,1200
+3.0,151,legacy scalar metric,0.38333333333333336,1200
+3.0,151,covariance-aware metric,0.38333333333333336,1200

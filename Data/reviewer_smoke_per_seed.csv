@@ -1,0 +1,5 @@
+snr_db,seed,method,PER,blocks
+10.0,13,SQM_rank4,0.05,20
+10.0,13,OFDM_pilot_free_marginal,0.05,20
+10.0,13,OFDM_rate_matched_pilot_coded,0.3,20
+10.0,13,OFDM_practical_unknown_IQ_DC,0.3,20

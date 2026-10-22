@@ -1,0 +1,10 @@
+experiment,method,PER,snr_db,blocks
+tuned_ofdm,CP4-4pilot-8BPSK estimate CFO,0.29,10.0,100
+tuned_ofdm,CP4-4pilot-8BPSK oracle CFO,0.28,10.0,100
+tuned_ofdm,CP4-8pilot-4QPSK estimate CFO,0.45,10.0,100
+tuned_ofdm,CP4-8pilot-4QPSK oracle CFO,0.43,10.0,100
+tuned_ofdm,CP2-4pilot-8BPSK estimate CFO,0.23,10.0,100
+tuned_ofdm,CP2-4pilot-8BPSK oracle CFO,0.21,10.0,100
+oracle_gap,full oracle,0.03,10.0,100
+oracle_gap,oracle CFO + unknown I/Q/DC,0.1,10.0,100
+oracle_gap,oracle I/Q/DC + no CFO oracle,0.03,10.0,100

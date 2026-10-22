@@ -1,0 +1,27 @@
+Selective-Quotient Modulation final validation
+Date: 2026-09-19
+Author: Dhruv kumar, Dr Michael Georgiades
+
+Reproducibility:
+- Code/reproduce_figures.py executed successfully after final data integration
+- All Code/*.py files pass Python bytecode compilation
+- Code/evaluate_grasslattice_baseline.py smoke run passed
+- Code/evaluate_bmocz_baseline.py smoke run passed after fixing a pandas/local-variable name collision in the packaged rerun script
+- Direct baseline data, validation sweeps, and figures are shipped in Data/ and Figure/
+
+Evidence policy:
+- Manuscript numerical claims are tied to shipped Data/*.csv files
+- Full-oracle OFDM is retained as an upper control and remains better than Selective-DMM
+- BMOCZ uses the exact two-tap PDP and AWGN variance in a full 256-message/CFO Gaussian marginal-ML decoder
+- Grass-Lattice uses the published M=1 mapping with held-out alpha selection and exhaustive noncoherent GLRT
+- MOCZ and Grass-Lattice screens are kept separate from the exact fractional TDL-A table because their native channel models differ
+- Negative and failed branches are retained in ResearchNote.md and the manuscript
+
+Online-adaptive extension rerun (2026-10-03):
+- `Code/evaluate_online_adaptive.py` passed smoke and three-seed final runs.
+- Final time-varying trace used 4 x 300 packets per seed, with disjoint validation seeds.
+- Fresh main TDL-A rerun used 3 seeds x 1200 blocks per SNR point and is stored in `Data/final_rerun_fractional_tdla_headtohead.csv`.
+- New figures were rendered and visually inspected: `Figure/fig_main_rerun.png` and `Figure/fig_online_adaptive.png`.
+- Updated `Manuscript/main.tex` was statically checked: balanced document/environment counts and balanced braces.
+- A TeX compiler is not installed in the execution environment, so final PDF compilation could not be performed here; the source and all referenced figures are packaged.
+- Additional proxy-calibration/sensitivity diagnostics and fixed-SNR delay-transition experiment passed and are stored in `Data/online_*diagnostics*`, `Data/online_controller_sensitivity.csv`, and `Data/online_delay_only_*.csv`.

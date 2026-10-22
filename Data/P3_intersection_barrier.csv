@@ -1,0 +1,7 @@
+P,L,centered_dimension_n,feature_rank_r,dimension_lower_bound_2r_minus_n,median_observed_intersection_dim,min_observed_intersection_dim,max_observed_intersection_dim,constructive_collision_possible_in_trials,max_relative_collision_residual
+3,9,8,6,4,4.0,4,4,True,1.7019886809376364e-14
+3,10,9,6,3,3.0,3,3,True,1.948389266970565e-14
+3,11,10,6,2,2.0,2,2,True,2.667529238918187e-14
+3,12,11,6,1,1.0,1,1,False,
+3,13,12,6,0,0.0,0,0,False,
+3,14,13,6,0,0.0,0,0,False,

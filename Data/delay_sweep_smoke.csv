@@ -1,0 +1,11 @@
+experiment,delay_spread_ns,method,PER,snr_db,seed,true_delay_scale_ns,assumed_delay_scale_ns,pdp_power_exponent,rank
+delay,0.0,Incidence-trained SQM,0.0,10.0,13,0.0,30.0,1.0,4
+delay,0.0,CP-OFDM TDL-LMMSE,0.05,10.0,13,0.0,30.0,1.0,4
+delay,15.0,Incidence-trained SQM,0.0,10.0,13,15.0,30.0,1.0,4
+delay,15.0,CP-OFDM TDL-LMMSE,0.05,10.0,13,15.0,30.0,1.0,4
+delay,30.0,Incidence-trained SQM,0.1,10.0,13,30.0,30.0,1.0,4
+delay,30.0,CP-OFDM TDL-LMMSE,0.45,10.0,13,30.0,30.0,1.0,4
+delay,60.0,Incidence-trained SQM,0.1,10.0,13,60.0,30.0,1.0,4
+delay,60.0,CP-OFDM TDL-LMMSE,0.2,10.0,13,60.0,30.0,1.0,4
+delay,100.0,Incidence-trained SQM,0.3,10.0,13,100.0,30.0,1.0,4
+delay,100.0,CP-OFDM TDL-LMMSE,0.45,10.0,13,100.0,30.0,1.0,4

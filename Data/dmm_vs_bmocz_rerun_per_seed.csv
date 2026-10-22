@@ -1,0 +1,61 @@
+cfo_range_deg_per_sample,snr_db,seed,method,PER,blocks
+0.0,5,17,Incidence-trained SQM,0.47375,800
+0.0,5,17,BMOCZ true-PDP ML,0.3925,800
+0.0,5,83,Incidence-trained SQM,0.455,800
+0.0,5,83,BMOCZ true-PDP ML,0.3875,800
+0.0,5,173,Incidence-trained SQM,0.445,800
+0.0,5,173,BMOCZ true-PDP ML,0.3775,800
+0.0,7,17,Incidence-trained SQM,0.28375,800
+0.0,7,17,BMOCZ true-PDP ML,0.28,800
+0.0,7,83,Incidence-trained SQM,0.28875,800
+0.0,7,83,BMOCZ true-PDP ML,0.2725,800
+0.0,7,173,Incidence-trained SQM,0.3,800
+0.0,7,173,BMOCZ true-PDP ML,0.30875,800
+0.0,10,17,Incidence-trained SQM,0.1675,800
+0.0,10,17,BMOCZ true-PDP ML,0.1675,800
+0.0,10,83,Incidence-trained SQM,0.115,800
+0.0,10,83,BMOCZ true-PDP ML,0.13125,800
+0.0,10,173,Incidence-trained SQM,0.15875,800
+0.0,10,173,BMOCZ true-PDP ML,0.18375,800
+0.0,12,17,Incidence-trained SQM,0.07875,800
+0.0,12,17,BMOCZ true-PDP ML,0.105,800
+0.0,12,83,Incidence-trained SQM,0.0725,800
+0.0,12,83,BMOCZ true-PDP ML,0.11125,800
+0.0,12,173,Incidence-trained SQM,0.07625,800
+0.0,12,173,BMOCZ true-PDP ML,0.1125,800
+0.0,15,17,Incidence-trained SQM,0.02625,800
+0.0,15,17,BMOCZ true-PDP ML,0.05375,800
+0.0,15,83,Incidence-trained SQM,0.02125,800
+0.0,15,83,BMOCZ true-PDP ML,0.0575,800
+0.0,15,173,Incidence-trained SQM,0.01625,800
+0.0,15,173,BMOCZ true-PDP ML,0.06,800
+8.0,5,17,Incidence-trained SQM,0.545,800
+8.0,5,17,BMOCZ true-PDP ML,0.40875,800
+8.0,5,83,Incidence-trained SQM,0.5375,800
+8.0,5,83,BMOCZ true-PDP ML,0.40625,800
+8.0,5,173,Incidence-trained SQM,0.52875,800
+8.0,5,173,BMOCZ true-PDP ML,0.40625,800
+8.0,7,17,Incidence-trained SQM,0.35,800
+8.0,7,17,BMOCZ true-PDP ML,0.29625,800
+8.0,7,83,Incidence-trained SQM,0.39125,800
+8.0,7,83,BMOCZ true-PDP ML,0.31375,800
+8.0,7,173,Incidence-trained SQM,0.355,800
+8.0,7,173,BMOCZ true-PDP ML,0.2925,800
+8.0,10,17,Incidence-trained SQM,0.15625,800
+8.0,10,17,BMOCZ true-PDP ML,0.17375,800
+8.0,10,83,Incidence-trained SQM,0.17875,800
+8.0,10,83,BMOCZ true-PDP ML,0.18125,800
+8.0,10,173,Incidence-trained SQM,0.1875,800
+8.0,10,173,BMOCZ true-PDP ML,0.18625,800
+8.0,12,17,Incidence-trained SQM,0.105,800
+8.0,12,17,BMOCZ true-PDP ML,0.10375,800
+8.0,12,83,Incidence-trained SQM,0.1075,800
+8.0,12,83,BMOCZ true-PDP ML,0.11125,800
+8.0,12,173,Incidence-trained SQM,0.09625,800
+8.0,12,173,BMOCZ true-PDP ML,0.12125,800
+8.0,15,17,Incidence-trained SQM,0.03875,800
+8.0,15,17,BMOCZ true-PDP ML,0.07125,800
+8.0,15,83,Incidence-trained SQM,0.04,800
+8.0,15,83,BMOCZ true-PDP ML,0.075,800
+8.0,15,173,Incidence-trained SQM,0.04375,800
+8.0,15,173,BMOCZ true-PDP ML,0.06875,800

@@ -4,9 +4,8 @@
 
 Research and reproducibility materials for **“Selective-Quotient Modulation for Calibration-Light Short-Packet Wireless Links”**, by **Dhruv Kumar and Michael Georgiades**.
 
-**Start here:** [manuscript PDF](Manuscript/main.pdf) · [reviewer guide](docs/REVIEWER_GUIDE.md) · [figure/data map](docs/FIGURE_DATA_MAP.md) · [verification report](docs/VALIDATION.md)
 
-> **Research status:** simulation study and manuscript under author preparation. This repository does not imply journal acceptance or hardware validation. The full manuscript has not been shortened to satisfy an initial-submission page limit. See [author-review items](docs/AUTHOR_REVIEW.md).
+> **Research status:** simulation study and manuscript under author preparation. This repository does not imply journal acceptance or hardware validation. The full manuscript has not been shortened to satisfy an initial-submission page limit.
 
 ## What is the idea?
 

@@ -5,8 +5,6 @@
 Research and reproducibility materials for **“Selective-Quotient Modulation for Calibration-Light Short-Packet Wireless Links”**, by **Dhruv Kumar and Michael Georgiades**.
 
 
-> **Research status:** simulation study and manuscript under author preparation. This repository does not imply journal acceptance or hardware validation. The full manuscript has not been shortened to satisfy an initial-submission page limit.
-
 ## What is the idea?
 
 A short packet may spend a substantial fraction of its samples on learning a channel or calibrating the receiver. SQM instead asks: **which unknown transformations can be tolerated without estimating them individually, and how much tolerance becomes too much?**

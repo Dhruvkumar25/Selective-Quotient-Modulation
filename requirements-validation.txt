@@ -1,0 +1,6 @@
+# V8 validation and comparison stages; PyTorch is not required here.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+tqdm>=4.65

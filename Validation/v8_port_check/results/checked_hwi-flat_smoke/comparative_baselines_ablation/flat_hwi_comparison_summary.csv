@@ -1,0 +1,4 @@
+snr_db,method,PER_mean,PER_95CI_halfwidth,seeds,blocks
+10,"HWI-aware Grassmannian, single-stream adaptation",0.3,0.0,1,100
+10,HWI-unaware Cube-Split embedding,0.45,0.0,1,100
+10,SQM quotient + CFO search,0.05,0.0,1,100

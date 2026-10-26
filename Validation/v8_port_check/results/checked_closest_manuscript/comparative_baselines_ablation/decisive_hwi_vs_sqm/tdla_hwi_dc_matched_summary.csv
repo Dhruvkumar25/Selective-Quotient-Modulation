@@ -1,0 +1,16 @@
+snr_db,method,PER_mean,PER_95CI_halfwidth,seeds,blocks
+5,HWI-Grassmannian + centered CFO-search line ML,0.2895833333333333,0.028851934369669686,3,2400
+5,HWI-Grassmannian + matched selective quotient r=3,0.25666666666666665,0.018717088875697663,3,2400
+5,SQM released codebook + selective quotient r=4,0.22916666666666666,0.026771794647686524,3,2400
+7,HWI-Grassmannian + centered CFO-search line ML,0.22625000000000003,0.011195857369208057,3,2400
+7,HWI-Grassmannian + matched selective quotient r=3,0.1775,0.018631032838828127,3,2400
+7,SQM released codebook + selective quotient r=4,0.14791666666666667,0.023511983973177827,3,2400
+10,HWI-Grassmannian + centered CFO-search line ML,0.17124999999999999,0.025416929381691416,3,2400
+10,HWI-Grassmannian + matched selective quotient r=3,0.08791666666666668,0.007814511849513596,3,2400
+10,SQM released codebook + selective quotient r=4,0.06666666666666667,0.003585543941592732,3,2400
+12,HWI-Grassmannian + centered CFO-search line ML,0.145,0.05130586386432504,3,2400
+12,HWI-Grassmannian + matched selective quotient r=3,0.052083333333333336,0.030159092642423477,3,2400
+12,SQM released codebook + selective quotient r=4,0.043333333333333335,0.03638929666509795,3,2400
+15,HWI-Grassmannian + centered CFO-search line ML,0.14416666666666667,0.003585543941592732,3,2400
+15,HWI-Grassmannian + matched selective quotient r=3,0.021666666666666667,0.012927862531841841,3,2400
+15,SQM released codebook + selective quotient r=4,0.015000000000000001,0.016431026519939003,3,2400

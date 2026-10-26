@@ -1,0 +1,21 @@
+panel,snr_db,method,PER_mean,PER_95CI_halfwidth,seeds,blocks,payload_bits,observation_samples,bits_per_observation_sample,receiver,calibration_assumption,rank
+A: flat clean,10.0,HWI-Grassmannian,0.08333333333333333,0.01013814409194423,5,3000,8,16,0.5,noncoherent line ML,none,1.0
+A: flat clean,10.0,SQM,0.10666666666666666,0.015065750587478017,5,3000,8,16,0.5,quotient decoder,none,2.0
+A: flat clean,10.0,SE-MOCZ,0.123,0.00845689764335573,5,3000,8,25,0.32,source-model Gaussian marginal ML,none,3.0
+A: flat clean,10.0,Cube-Split,0.189,0.01944613025454636,5,3000,8,16,0.5,noncoherent line ML,none,4.0
+A: flat clean,10.0,IM-MOCZ,0.22533333333333333,0.01118263794975552,5,3000,8,7,1.1428571428571428,DiZeT + majority vote,none,5.0
+B: flat + HWI,10.0,HWI-Grassmannian,0.10300000000000001,0.023016415471997228,5,3000,8,16,0.5,centered CFO-search line ML,none,1.0
+B: flat + HWI,10.0,SQM,0.11066666666666666,0.012295330053019693,5,3000,8,16,0.5,centered quotient + CFO search,none,2.0
+B: flat + HWI,10.0,SE-MOCZ,0.11866666666666666,0.016837663788663127,5,3000,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup,3.0
+B: flat + HWI,10.0,IM-MOCZ,0.217,0.021822536686060975,5,3000,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup,4.0
+B: flat + HWI,10.0,Cube-Split,0.6903333333333334,0.01502305116125649,5,3000,8,16,0.5,centered CFO-search line ML,none,5.0
+C: two-tap clean,10.0,SQM,0.098,0.013522804708404182,5,3000,8,16,0.5,matched rank-4 two-tap quotient,none,1.0
+C: two-tap clean,10.0,HWI-Grassmannian,0.14566666666666667,0.012468268645401343,5,3000,8,16,0.5,matched rank-4 two-tap quotient,none,2.0
+C: two-tap clean,10.0,SE-MOCZ,0.20933333333333332,0.006956520357453536,5,3000,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none,3.0
+C: two-tap clean,10.0,IM-MOCZ,0.32333333333333336,0.013331434615231301,5,3000,8,8,1.0,two-tap DiZeT + majority vote,none,4.0
+C: two-tap clean,10.0,Cube-Split,0.8683333333333334,0.021053437409961465,5,3000,8,16,0.5,matched rank-4 two-tap quotient,none,5.0
+D: two-tap + HWI,10.0,SQM,0.10866666666666666,0.015305464056870345,5,3000,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none,1.0
+D: two-tap + HWI,10.0,HWI-Grassmannian,0.17033333333333334,0.01398978173115171,5,3000,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none,2.0
+D: two-tap + HWI,10.0,SE-MOCZ,0.20800000000000002,0.014951614469452009,5,3000,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup,3.0
+D: two-tap + HWI,10.0,IM-MOCZ,0.33866666666666667,0.026558261221871736,5,3000,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup,4.0
+D: two-tap + HWI,10.0,Cube-Split,0.8299999999999998,0.009816215807387786,5,3000,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none,5.0

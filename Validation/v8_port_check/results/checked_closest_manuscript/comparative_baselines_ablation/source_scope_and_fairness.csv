@@ -1,0 +1,6 @@
+scheme,source/native setting,native nuisance model,comparative study role
+SQM,8 bits / 16 complex samples,TDL-A + CFO + static I/Q + DC,Released implementation
+Cube-Split,"CS(4,1): 256 symbols in T=4","Flat block fading, SIMO; N=1 used here",Exact source construction; optional 16-sample isometric embedding
+HWI-aware Grassmannian,"Source paper: K=64, M=2, T=4/8",Flat block fading + CFO + TX I/Q imbalance,"Single-stream M=1, T=16, K=256 adaptation"
+SE-MOCZ,Source examples use K=7/40/70,Frequency-selective multipath + FTN pulse model,"8-bit SE-BMOCZ source-model implementation, tau=0.9, beta=0.3"
+IM-MOCZ,"Source equal-bit example N=10, K=8/6/4",Frequency-selective multipath + AWGN,"Matched payload N=8, K=6 using source DiZeT/majority-vote equations"

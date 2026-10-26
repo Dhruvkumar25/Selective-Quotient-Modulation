@@ -1,0 +1,501 @@
+panel,snr_db,seed,method,PER,blocks,payload_bits,observation_samples,bits_per_observation_sample,receiver,calibration_assumption
+A: flat clean,5.0,13,SQM,0.3016666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,5.0,13,HWI-Grassmannian,0.245,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,13,Cube-Split,0.47,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,13,SE-MOCZ,0.33166666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,5.0,13,IM-MOCZ,0.515,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,5.0,13,SQM,0.35,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,5.0,13,HWI-Grassmannian,0.33166666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,13,Cube-Split,0.8583333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,13,SE-MOCZ,0.35333333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,5.0,13,IM-MOCZ,0.5333333333333333,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,5.0,13,SQM,0.38333333333333336,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,13,HWI-Grassmannian,0.4766666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,13,Cube-Split,0.95,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,13,SE-MOCZ,0.45666666666666667,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,5.0,13,IM-MOCZ,0.6416666666666667,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,5.0,13,SQM,0.405,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,13,HWI-Grassmannian,0.49,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,13,Cube-Split,0.9433333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,13,SE-MOCZ,0.41833333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,5.0,13,IM-MOCZ,0.6583333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,5.0,59,SQM,0.2833333333333333,600,8,16,0.5,quotient decoder,none
+A: flat clean,5.0,59,HWI-Grassmannian,0.22166666666666668,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,59,Cube-Split,0.44666666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,59,SE-MOCZ,0.2816666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,5.0,59,IM-MOCZ,0.49333333333333335,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,5.0,59,SQM,0.31333333333333335,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,5.0,59,HWI-Grassmannian,0.2633333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,59,Cube-Split,0.8466666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,59,SE-MOCZ,0.3333333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,5.0,59,IM-MOCZ,0.5,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,5.0,59,SQM,0.37,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,59,HWI-Grassmannian,0.4716666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,59,Cube-Split,0.9483333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,59,SE-MOCZ,0.44333333333333336,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,5.0,59,IM-MOCZ,0.6183333333333333,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,5.0,59,SQM,0.43333333333333335,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,59,HWI-Grassmannian,0.515,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,59,Cube-Split,0.9616666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,59,SE-MOCZ,0.4816666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,5.0,59,IM-MOCZ,0.66,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,5.0,151,SQM,0.3016666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,5.0,151,HWI-Grassmannian,0.26166666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,151,Cube-Split,0.5016666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,151,SE-MOCZ,0.33166666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,5.0,151,IM-MOCZ,0.49833333333333335,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,5.0,151,SQM,0.37,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,5.0,151,HWI-Grassmannian,0.3233333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,151,Cube-Split,0.855,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,151,SE-MOCZ,0.35333333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,5.0,151,IM-MOCZ,0.5166666666666667,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,5.0,151,SQM,0.36333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,151,HWI-Grassmannian,0.475,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,151,Cube-Split,0.95,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,151,SE-MOCZ,0.4483333333333333,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,5.0,151,IM-MOCZ,0.6266666666666667,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,5.0,151,SQM,0.44166666666666665,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,151,HWI-Grassmannian,0.5216666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,151,Cube-Split,0.9383333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,151,SE-MOCZ,0.45166666666666666,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,5.0,151,IM-MOCZ,0.6533333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,5.0,233,SQM,0.31833333333333336,600,8,16,0.5,quotient decoder,none
+A: flat clean,5.0,233,HWI-Grassmannian,0.26166666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,233,Cube-Split,0.49166666666666664,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,233,SE-MOCZ,0.345,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,5.0,233,IM-MOCZ,0.5266666666666666,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,5.0,233,SQM,0.31833333333333336,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,5.0,233,HWI-Grassmannian,0.3233333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,233,Cube-Split,0.86,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,233,SE-MOCZ,0.3466666666666667,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,5.0,233,IM-MOCZ,0.5216666666666666,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,5.0,233,SQM,0.38,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,233,HWI-Grassmannian,0.48833333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,233,Cube-Split,0.9583333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,233,SE-MOCZ,0.44166666666666665,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,5.0,233,IM-MOCZ,0.6266666666666667,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,5.0,233,SQM,0.42333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,233,HWI-Grassmannian,0.48333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,233,Cube-Split,0.9366666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,233,SE-MOCZ,0.45166666666666666,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,5.0,233,IM-MOCZ,0.6366666666666667,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,5.0,347,SQM,0.27166666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,5.0,347,HWI-Grassmannian,0.225,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,347,Cube-Split,0.4866666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,5.0,347,SE-MOCZ,0.31166666666666665,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,5.0,347,IM-MOCZ,0.5116666666666667,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,5.0,347,SQM,0.36,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,5.0,347,HWI-Grassmannian,0.29333333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,347,Cube-Split,0.8166666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,5.0,347,SE-MOCZ,0.3433333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,5.0,347,IM-MOCZ,0.54,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,5.0,347,SQM,0.3566666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,347,HWI-Grassmannian,0.49166666666666664,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,347,Cube-Split,0.955,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,5.0,347,SE-MOCZ,0.45,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,5.0,347,IM-MOCZ,0.62,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,5.0,347,SQM,0.3983333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,347,HWI-Grassmannian,0.49166666666666664,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,347,Cube-Split,0.9216666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,5.0,347,SE-MOCZ,0.45666666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,5.0,347,IM-MOCZ,0.6683333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,7.0,13,SQM,0.17666666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,7.0,13,HWI-Grassmannian,0.145,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,13,Cube-Split,0.32,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,13,SE-MOCZ,0.21333333333333335,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,7.0,13,IM-MOCZ,0.35333333333333333,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,7.0,13,SQM,0.23666666666666666,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,7.0,13,HWI-Grassmannian,0.22166666666666668,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,13,Cube-Split,0.785,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,13,SE-MOCZ,0.215,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,7.0,13,IM-MOCZ,0.4166666666666667,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,7.0,13,SQM,0.2683333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,13,HWI-Grassmannian,0.35333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,13,Cube-Split,0.9283333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,13,SE-MOCZ,0.355,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,7.0,13,IM-MOCZ,0.545,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,7.0,13,SQM,0.2683333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,13,HWI-Grassmannian,0.35333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,13,Cube-Split,0.895,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,13,SE-MOCZ,0.37166666666666665,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,7.0,13,IM-MOCZ,0.5333333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,7.0,59,SQM,0.21,600,8,16,0.5,quotient decoder,none
+A: flat clean,7.0,59,HWI-Grassmannian,0.16833333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,59,Cube-Split,0.35333333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,59,SE-MOCZ,0.20333333333333334,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,7.0,59,IM-MOCZ,0.37,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,7.0,59,SQM,0.23666666666666666,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,7.0,59,HWI-Grassmannian,0.21666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,59,Cube-Split,0.7916666666666666,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,59,SE-MOCZ,0.24166666666666667,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,7.0,59,IM-MOCZ,0.42,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,7.0,59,SQM,0.21333333333333335,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,59,HWI-Grassmannian,0.2833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,59,Cube-Split,0.915,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,59,SE-MOCZ,0.3383333333333333,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,7.0,59,IM-MOCZ,0.54,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,7.0,59,SQM,0.26,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,59,HWI-Grassmannian,0.32166666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,59,Cube-Split,0.8983333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,59,SE-MOCZ,0.34833333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,7.0,59,IM-MOCZ,0.5266666666666666,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,7.0,151,SQM,0.19666666666666666,600,8,16,0.5,quotient decoder,none
+A: flat clean,7.0,151,HWI-Grassmannian,0.16666666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,151,Cube-Split,0.34,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,151,SE-MOCZ,0.22166666666666668,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,7.0,151,IM-MOCZ,0.38333333333333336,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,7.0,151,SQM,0.20333333333333334,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,7.0,151,HWI-Grassmannian,0.17666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,151,Cube-Split,0.79,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,151,SE-MOCZ,0.22333333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,7.0,151,IM-MOCZ,0.37166666666666665,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,7.0,151,SQM,0.18666666666666668,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,151,HWI-Grassmannian,0.3433333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,151,Cube-Split,0.915,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,151,SE-MOCZ,0.32166666666666666,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,7.0,151,IM-MOCZ,0.5433333333333333,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,7.0,151,SQM,0.25166666666666665,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,151,HWI-Grassmannian,0.33666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,151,Cube-Split,0.9016666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,151,SE-MOCZ,0.3383333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,7.0,151,IM-MOCZ,0.475,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,7.0,233,SQM,0.195,600,8,16,0.5,quotient decoder,none
+A: flat clean,7.0,233,HWI-Grassmannian,0.16666666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,233,Cube-Split,0.32666666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,233,SE-MOCZ,0.20833333333333334,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,7.0,233,IM-MOCZ,0.355,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,7.0,233,SQM,0.235,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,7.0,233,HWI-Grassmannian,0.19,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,233,Cube-Split,0.7716666666666666,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,233,SE-MOCZ,0.24,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,7.0,233,IM-MOCZ,0.385,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,7.0,233,SQM,0.22,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,233,HWI-Grassmannian,0.34833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,233,Cube-Split,0.9316666666666666,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,233,SE-MOCZ,0.3616666666666667,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,7.0,233,IM-MOCZ,0.5133333333333333,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,7.0,233,SQM,0.22666666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,233,HWI-Grassmannian,0.30333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,233,Cube-Split,0.8883333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,233,SE-MOCZ,0.3283333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,7.0,233,IM-MOCZ,0.49666666666666665,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,7.0,347,SQM,0.20666666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,7.0,347,HWI-Grassmannian,0.14333333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,347,Cube-Split,0.345,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,7.0,347,SE-MOCZ,0.235,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,7.0,347,IM-MOCZ,0.39,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,7.0,347,SQM,0.22,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,7.0,347,HWI-Grassmannian,0.19333333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,347,Cube-Split,0.765,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,7.0,347,SE-MOCZ,0.25,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,7.0,347,IM-MOCZ,0.375,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,7.0,347,SQM,0.225,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,347,HWI-Grassmannian,0.30833333333333335,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,347,Cube-Split,0.93,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,7.0,347,SE-MOCZ,0.34,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,7.0,347,IM-MOCZ,0.515,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,7.0,347,SQM,0.265,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,347,HWI-Grassmannian,0.31666666666666665,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,347,Cube-Split,0.8983333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,7.0,347,SE-MOCZ,0.3466666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,7.0,347,IM-MOCZ,0.5233333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,10.0,13,SQM,0.08833333333333333,600,8,16,0.5,quotient decoder,none
+A: flat clean,10.0,13,HWI-Grassmannian,0.07166666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,13,Cube-Split,0.18166666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,13,SE-MOCZ,0.115,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,10.0,13,IM-MOCZ,0.21833333333333332,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,10.0,13,SQM,0.12666666666666668,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,10.0,13,HWI-Grassmannian,0.12833333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,13,Cube-Split,0.7,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,13,SE-MOCZ,0.135,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,10.0,13,IM-MOCZ,0.24166666666666667,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,10.0,13,SQM,0.10666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,13,HWI-Grassmannian,0.145,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,13,Cube-Split,0.855,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,13,SE-MOCZ,0.20833333333333334,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,10.0,13,IM-MOCZ,0.3283333333333333,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,10.0,13,SQM,0.10833333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,13,HWI-Grassmannian,0.165,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,13,Cube-Split,0.8316666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,13,SE-MOCZ,0.205,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,10.0,13,IM-MOCZ,0.355,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,10.0,59,SQM,0.11166666666666666,600,8,16,0.5,quotient decoder,none
+A: flat clean,10.0,59,HWI-Grassmannian,0.08833333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,59,Cube-Split,0.20166666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,59,SE-MOCZ,0.12,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,10.0,59,IM-MOCZ,0.23666666666666666,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,10.0,59,SQM,0.11166666666666666,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,10.0,59,HWI-Grassmannian,0.08833333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,59,Cube-Split,0.7016666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,59,SE-MOCZ,0.115,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,10.0,59,IM-MOCZ,0.22,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,10.0,59,SQM,0.10833333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,59,HWI-Grassmannian,0.16166666666666665,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,59,Cube-Split,0.8933333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,59,SE-MOCZ,0.21666666666666667,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,10.0,59,IM-MOCZ,0.335,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,10.0,59,SQM,0.12,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,59,HWI-Grassmannian,0.185,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,59,Cube-Split,0.835,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,59,SE-MOCZ,0.225,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,10.0,59,IM-MOCZ,0.36,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,10.0,151,SQM,0.10166666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,10.0,151,HWI-Grassmannian,0.09166666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,151,Cube-Split,0.20833333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,151,SE-MOCZ,0.125,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,10.0,151,IM-MOCZ,0.23166666666666666,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,10.0,151,SQM,0.10666666666666667,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,10.0,151,HWI-Grassmannian,0.10666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,151,Cube-Split,0.68,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,151,SE-MOCZ,0.125,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,10.0,151,IM-MOCZ,0.21,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,10.0,151,SQM,0.1,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,151,HWI-Grassmannian,0.14666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,151,Cube-Split,0.8783333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,151,SE-MOCZ,0.205,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,10.0,151,IM-MOCZ,0.30666666666666664,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,10.0,151,SQM,0.11,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,151,HWI-Grassmannian,0.16666666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,151,Cube-Split,0.8366666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,151,SE-MOCZ,0.20666666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,10.0,151,IM-MOCZ,0.33,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,10.0,233,SQM,0.11166666666666666,600,8,16,0.5,quotient decoder,none
+A: flat clean,10.0,233,HWI-Grassmannian,0.07833333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,233,Cube-Split,0.18333333333333332,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,233,SE-MOCZ,0.13333333333333333,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,10.0,233,IM-MOCZ,0.225,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,10.0,233,SQM,0.10833333333333334,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,10.0,233,HWI-Grassmannian,0.11,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,233,Cube-Split,0.675,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,233,SE-MOCZ,0.12,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,10.0,233,IM-MOCZ,0.22,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,10.0,233,SQM,0.09333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,233,HWI-Grassmannian,0.135,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,233,Cube-Split,0.86,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,233,SE-MOCZ,0.21333333333333335,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,10.0,233,IM-MOCZ,0.32,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,10.0,233,SQM,0.08833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,233,HWI-Grassmannian,0.15666666666666668,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,233,Cube-Split,0.8166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,233,SE-MOCZ,0.19166666666666668,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,10.0,233,IM-MOCZ,0.30666666666666664,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,10.0,347,SQM,0.12,600,8,16,0.5,quotient decoder,none
+A: flat clean,10.0,347,HWI-Grassmannian,0.08666666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,347,Cube-Split,0.17,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,10.0,347,SE-MOCZ,0.12166666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,10.0,347,IM-MOCZ,0.215,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,10.0,347,SQM,0.1,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,10.0,347,HWI-Grassmannian,0.08166666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,347,Cube-Split,0.695,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,10.0,347,SE-MOCZ,0.09833333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,10.0,347,IM-MOCZ,0.19333333333333333,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,10.0,347,SQM,0.08166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,347,HWI-Grassmannian,0.14,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,347,Cube-Split,0.855,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,10.0,347,SE-MOCZ,0.20333333333333334,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,10.0,347,IM-MOCZ,0.32666666666666666,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,10.0,347,SQM,0.11666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,347,HWI-Grassmannian,0.17833333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,347,Cube-Split,0.83,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,10.0,347,SE-MOCZ,0.21166666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,10.0,347,IM-MOCZ,0.3416666666666667,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,12.0,13,SQM,0.08,600,8,16,0.5,quotient decoder,none
+A: flat clean,12.0,13,HWI-Grassmannian,0.07166666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,13,Cube-Split,0.16833333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,13,SE-MOCZ,0.09666666666666666,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,12.0,13,IM-MOCZ,0.16,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,12.0,13,SQM,0.065,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,12.0,13,HWI-Grassmannian,0.06666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,13,Cube-Split,0.6266666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,13,SE-MOCZ,0.08666666666666667,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,12.0,13,IM-MOCZ,0.15833333333333333,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,12.0,13,SQM,0.03833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,13,HWI-Grassmannian,0.085,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,13,Cube-Split,0.8533333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,13,SE-MOCZ,0.12666666666666668,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,12.0,13,IM-MOCZ,0.225,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,12.0,13,SQM,0.051666666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,13,HWI-Grassmannian,0.085,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,13,Cube-Split,0.7533333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,13,SE-MOCZ,0.15833333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,12.0,13,IM-MOCZ,0.25166666666666665,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,12.0,59,SQM,0.07666666666666666,600,8,16,0.5,quotient decoder,none
+A: flat clean,12.0,59,HWI-Grassmannian,0.05333333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,59,Cube-Split,0.14833333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,59,SE-MOCZ,0.07666666666666666,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,12.0,59,IM-MOCZ,0.16166666666666665,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,12.0,59,SQM,0.07333333333333333,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,12.0,59,HWI-Grassmannian,0.06666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,59,Cube-Split,0.6266666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,59,SE-MOCZ,0.07333333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,12.0,59,IM-MOCZ,0.14,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,12.0,59,SQM,0.04833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,59,HWI-Grassmannian,0.08,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,59,Cube-Split,0.7916666666666666,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,59,SE-MOCZ,0.145,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,12.0,59,IM-MOCZ,0.22,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,12.0,59,SQM,0.055,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,59,HWI-Grassmannian,0.09333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,59,Cube-Split,0.7516666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,59,SE-MOCZ,0.14833333333333334,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,12.0,59,IM-MOCZ,0.23333333333333334,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,12.0,151,SQM,0.06333333333333334,600,8,16,0.5,quotient decoder,none
+A: flat clean,12.0,151,HWI-Grassmannian,0.051666666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,151,Cube-Split,0.12333333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,151,SE-MOCZ,0.08,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,12.0,151,IM-MOCZ,0.15166666666666667,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,12.0,151,SQM,0.08,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,12.0,151,HWI-Grassmannian,0.06166666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,151,Cube-Split,0.6616666666666666,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,151,SE-MOCZ,0.06333333333333334,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,12.0,151,IM-MOCZ,0.15166666666666667,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,12.0,151,SQM,0.056666666666666664,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,151,HWI-Grassmannian,0.06833333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,151,Cube-Split,0.8533333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,151,SE-MOCZ,0.13333333333333333,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,12.0,151,IM-MOCZ,0.21,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,12.0,151,SQM,0.055,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,151,HWI-Grassmannian,0.058333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,151,Cube-Split,0.7516666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,151,SE-MOCZ,0.09333333333333334,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,12.0,151,IM-MOCZ,0.20833333333333334,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,12.0,233,SQM,0.075,600,8,16,0.5,quotient decoder,none
+A: flat clean,12.0,233,HWI-Grassmannian,0.06666666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,233,Cube-Split,0.14833333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,233,SE-MOCZ,0.075,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,12.0,233,IM-MOCZ,0.16666666666666666,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,12.0,233,SQM,0.07833333333333334,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,12.0,233,HWI-Grassmannian,0.07,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,233,Cube-Split,0.6433333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,233,SE-MOCZ,0.07666666666666666,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,12.0,233,IM-MOCZ,0.15333333333333332,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,12.0,233,SQM,0.06666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,233,HWI-Grassmannian,0.1,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,233,Cube-Split,0.8383333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,233,SE-MOCZ,0.14166666666666666,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,12.0,233,IM-MOCZ,0.25333333333333335,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,12.0,233,SQM,0.055,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,233,HWI-Grassmannian,0.08166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,233,Cube-Split,0.7283333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,233,SE-MOCZ,0.12333333333333334,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,12.0,233,IM-MOCZ,0.23166666666666666,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,12.0,347,SQM,0.06833333333333333,600,8,16,0.5,quotient decoder,none
+A: flat clean,12.0,347,HWI-Grassmannian,0.06,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,347,Cube-Split,0.11166666666666666,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,12.0,347,SE-MOCZ,0.08666666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,12.0,347,IM-MOCZ,0.13666666666666666,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,12.0,347,SQM,0.09833333333333333,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,12.0,347,HWI-Grassmannian,0.08166666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,347,Cube-Split,0.625,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,12.0,347,SE-MOCZ,0.1,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,12.0,347,IM-MOCZ,0.165,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,12.0,347,SQM,0.041666666666666664,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,347,HWI-Grassmannian,0.07333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,347,Cube-Split,0.82,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,12.0,347,SE-MOCZ,0.14833333333333334,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,12.0,347,IM-MOCZ,0.235,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,12.0,347,SQM,0.07,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,347,HWI-Grassmannian,0.08166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,347,Cube-Split,0.7433333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,12.0,347,SE-MOCZ,0.14333333333333334,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,12.0,347,IM-MOCZ,0.23833333333333334,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,15.0,13,SQM,0.03666666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,15.0,13,HWI-Grassmannian,0.023333333333333334,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,13,Cube-Split,0.065,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,13,SE-MOCZ,0.04,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,15.0,13,IM-MOCZ,0.07333333333333333,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,15.0,13,SQM,0.03,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,15.0,13,HWI-Grassmannian,0.03333333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,13,Cube-Split,0.5766666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,13,SE-MOCZ,0.04833333333333333,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,15.0,13,IM-MOCZ,0.07833333333333334,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,15.0,13,SQM,0.011666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,13,HWI-Grassmannian,0.03,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,13,Cube-Split,0.7466666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,13,SE-MOCZ,0.08666666666666667,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,15.0,13,IM-MOCZ,0.13666666666666666,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,15.0,13,SQM,0.011666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,13,HWI-Grassmannian,0.015,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,13,Cube-Split,0.65,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,13,SE-MOCZ,0.07833333333333334,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,15.0,13,IM-MOCZ,0.15333333333333332,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,15.0,59,SQM,0.02666666666666667,600,8,16,0.5,quotient decoder,none
+A: flat clean,15.0,59,HWI-Grassmannian,0.02666666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,59,Cube-Split,0.06833333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,59,SE-MOCZ,0.04,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,15.0,59,IM-MOCZ,0.07833333333333334,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,15.0,59,SQM,0.04666666666666667,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,15.0,59,HWI-Grassmannian,0.03833333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,59,Cube-Split,0.565,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,59,SE-MOCZ,0.03166666666666667,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,15.0,59,IM-MOCZ,0.08,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,15.0,59,SQM,0.006666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,59,HWI-Grassmannian,0.02666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,59,Cube-Split,0.7,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,59,SE-MOCZ,0.07666666666666666,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,15.0,59,IM-MOCZ,0.13833333333333334,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,15.0,59,SQM,0.016666666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,59,HWI-Grassmannian,0.025,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,59,Cube-Split,0.6216666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,59,SE-MOCZ,0.06666666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,15.0,59,IM-MOCZ,0.13833333333333334,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,15.0,151,SQM,0.035,600,8,16,0.5,quotient decoder,none
+A: flat clean,15.0,151,HWI-Grassmannian,0.021666666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,151,Cube-Split,0.06166666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,151,SE-MOCZ,0.02666666666666667,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,15.0,151,IM-MOCZ,0.06833333333333333,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,15.0,151,SQM,0.04833333333333333,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,15.0,151,HWI-Grassmannian,0.041666666666666664,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,151,Cube-Split,0.5533333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,151,SE-MOCZ,0.045,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,15.0,151,IM-MOCZ,0.115,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,15.0,151,SQM,0.013333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,151,HWI-Grassmannian,0.021666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,151,Cube-Split,0.7466666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,151,SE-MOCZ,0.056666666666666664,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,15.0,151,IM-MOCZ,0.11166666666666666,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,15.0,151,SQM,0.018333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,151,HWI-Grassmannian,0.03166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,151,Cube-Split,0.6216666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,151,SE-MOCZ,0.07166666666666667,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,15.0,151,IM-MOCZ,0.11333333333333333,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,15.0,233,SQM,0.04833333333333333,600,8,16,0.5,quotient decoder,none
+A: flat clean,15.0,233,HWI-Grassmannian,0.03333333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,233,Cube-Split,0.06833333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,233,SE-MOCZ,0.043333333333333335,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,15.0,233,IM-MOCZ,0.105,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,15.0,233,SQM,0.04,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,15.0,233,HWI-Grassmannian,0.03666666666666667,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,233,Cube-Split,0.565,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,233,SE-MOCZ,0.03666666666666667,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,15.0,233,IM-MOCZ,0.09,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,15.0,233,SQM,0.005,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,233,HWI-Grassmannian,0.021666666666666667,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,233,Cube-Split,0.7333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,233,SE-MOCZ,0.06666666666666667,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,15.0,233,IM-MOCZ,0.1,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,15.0,233,SQM,0.013333333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,233,HWI-Grassmannian,0.018333333333333333,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,233,Cube-Split,0.6466666666666666,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,233,SE-MOCZ,0.06833333333333333,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,15.0,233,IM-MOCZ,0.13666666666666666,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup
+A: flat clean,15.0,347,SQM,0.035,600,8,16,0.5,quotient decoder,none
+A: flat clean,15.0,347,HWI-Grassmannian,0.03333333333333333,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,347,Cube-Split,0.07166666666666667,600,8,16,0.5,noncoherent line ML,none
+A: flat clean,15.0,347,SE-MOCZ,0.041666666666666664,600,8,25,0.32,source-model Gaussian marginal ML,none
+A: flat clean,15.0,347,IM-MOCZ,0.08833333333333333,600,8,7,1.1428571428571428,DiZeT + majority vote,none
+B: flat + HWI,15.0,347,SQM,0.03,600,8,16,0.5,centered quotient + CFO search,none
+B: flat + HWI,15.0,347,HWI-Grassmannian,0.03333333333333333,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,347,Cube-Split,0.555,600,8,16,0.5,centered CFO-search line ML,none
+B: flat + HWI,15.0,347,SE-MOCZ,0.043333333333333335,600,8,25,0.32,Gaussian marginal ML after oracle HWI cleanup,oracle front-end cleanup
+B: flat + HWI,15.0,347,IM-MOCZ,0.07666666666666666,600,8,7,1.1428571428571428,DiZeT after oracle HWI cleanup,oracle front-end cleanup
+C: two-tap clean,15.0,347,SQM,0.016666666666666666,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,347,HWI-Grassmannian,0.041666666666666664,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,347,Cube-Split,0.725,600,8,16,0.5,matched rank-4 two-tap quotient,none
+C: two-tap clean,15.0,347,SE-MOCZ,0.07833333333333334,600,8,26,0.3076923076923077,two-tap Gaussian marginal ML,none
+C: two-tap clean,15.0,347,IM-MOCZ,0.125,600,8,8,1.0,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,15.0,347,SQM,0.025,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,347,HWI-Grassmannian,0.03166666666666667,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,347,Cube-Split,0.5983333333333334,600,8,16,0.5,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,15.0,347,SE-MOCZ,0.07,600,8,26,0.3076923076923077,two-tap marginal ML after oracle HWI cleanup,oracle front-end cleanup
+D: two-tap + HWI,15.0,347,IM-MOCZ,0.13166666666666665,600,8,8,1.0,two-tap DiZeT after oracle HWI cleanup,oracle front-end cleanup

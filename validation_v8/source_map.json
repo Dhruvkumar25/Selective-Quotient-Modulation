@@ -1,0 +1,445 @@
+{
+  "notebook_sha256": "c1c9b3ea3e444168064de9027dfc5f58520bd3dd55e37dd76a7d57c547b23bf8",
+  "base_commit": "218b7899f31b2182c172e893afcbd206a113cf82",
+  "stages": {
+    "correction_setup": {
+      "cell_index_zero_based": 50,
+      "source_lines_inclusive": [
+        [
+          1,
+          21
+        ]
+      ],
+      "original_cell_sha256": "ea2888860e3f0949880b72c0eed622a86f0e7645782b80ed61752061351de2ff",
+      "ported_sha256": "6dd169e2685c960365823910b00592bce713a85be078a9b69d4847fd6f4f7cae",
+      "replacements": []
+    },
+    "boundary_delays": {
+      "cell_index_zero_based": 55,
+      "source_lines_inclusive": [
+        [
+          1,
+          146
+        ]
+      ],
+      "original_cell_sha256": "2a0cf3caa0345766daee9f17c48c46baebaab328debeea1a42e1f0bd6182c91b",
+      "ported_sha256": "769a06c12bdf1f6849e67b0caeb2f6b3cabcf548c1a1b4937c072532adbb5576",
+      "replacements": []
+    },
+    "transient_statistics": {
+      "cell_index_zero_based": 57,
+      "source_lines_inclusive": [
+        [
+          1,
+          55
+        ]
+      ],
+      "original_cell_sha256": "e328fe92da050c2985571550aa76c6c66bd42040984b8c41d465689fdb49d19b",
+      "ported_sha256": "2abcf205b339070f69343c482c76cb5a8cd4d6ea642c812ecc77cb3d7622bbce",
+      "replacements": []
+    },
+    "sensitivity": {
+      "cell_index_zero_based": 59,
+      "source_lines_inclusive": [
+        [
+          1,
+          215
+        ]
+      ],
+      "original_cell_sha256": "3d3c5a70a2d97052be16f116ae2030afe4fa83905ba6f9d979b35cc5cd9a1ddc",
+      "ported_sha256": "f5ac46d1819317e215931530b99e685fcf0332aeb312750c2b8286268018281d",
+      "replacements": []
+    },
+    "s6_corrected": {
+      "cell_index_zero_based": 61,
+      "source_lines_inclusive": [
+        [
+          1,
+          421
+        ]
+      ],
+      "original_cell_sha256": "c5d9e8e63676e77f26e7dbdc4eb294a92ac99ce2b0e5e858c668677998d69f4e",
+      "ported_sha256": "1258f2f7d7934ba5b8b26ee39a7dfc80629de27a94bd5b5a6777b0679b15c1c4",
+      "replacements": []
+    },
+    "margin_all_messages": {
+      "cell_index_zero_based": 63,
+      "source_lines_inclusive": [
+        [
+          1,
+          142
+        ]
+      ],
+      "original_cell_sha256": "977b16dd1b0e63c8f0806bded71ad59d3e39389a38c29e9b96174b0990827dd4",
+      "ported_sha256": "bb2f46f821ff13e55c837729c1ebffc5bbfedcf362bce621adc8fa16deffa3f2",
+      "replacements": [
+        {
+          "old": "REPRO\n    / \"Data_Kumar_Original\"",
+          "new": "ROOT\n    / \"Data\""
+        },
+        {
+          "old": "\"--cases\", \"500\"",
+          "new": "\"--cases\", os.environ.get(\"SQM_MARGIN_CASES\", \"500\")"
+        }
+      ]
+    },
+    "independent_setup": {
+      "cell_index_zero_based": 102,
+      "source_lines_inclusive": [
+        [
+          1,
+          43
+        ]
+      ],
+      "original_cell_sha256": "0c8e4b8d8ddfdc18970dfcd880716269e11e966264d63d3eb3f265ff2eff2a1e",
+      "ported_sha256": "8e094647e30a3b2a9ccaa0b4963aaedebebaf0e8c73a0a2f0fbc99d103b01fe6",
+      "replacements": [
+        {
+          "old": "from IPython.display import display",
+          "new": "# display is supplied by the CLI runner"
+        }
+      ]
+    },
+    "mathematics": {
+      "cell_index_zero_based": 104,
+      "source_lines_inclusive": [
+        [
+          1,
+          183
+        ]
+      ],
+      "original_cell_sha256": "feff6c720500a6699baab51901e1efc10140fea8a17878c399d29785e6a4c6b0",
+      "ported_sha256": "46cbff168a4fc853f75a70b4c8feb1f4aafb9279f410a419729c0e386df6d892",
+      "replacements": []
+    },
+    "censoring": {
+      "cell_index_zero_based": 107,
+      "source_lines_inclusive": [
+        [
+          1,
+          118
+        ]
+      ],
+      "original_cell_sha256": "77eab33b125275832fc332102e02db550ec554b408228a113f6b94f0c65f3038",
+      "ported_sha256": "00665d03368eaaa959a7ccc35f33dc97e8406b2b8ff114148e10ae14a8e05168",
+      "replacements": []
+    },
+    "core_imports": {
+      "cell_index_zero_based": 104,
+      "source_lines_inclusive": [
+        [
+          5,
+          11
+        ]
+      ],
+      "original_cell_sha256": "feff6c720500a6699baab51901e1efc10140fea8a17878c399d29785e6a4c6b0",
+      "ported_sha256": "4d904e6101aaaaa94197bfa3558d93dfb515dda010f4244ba6819633100cb41c",
+      "replacements": []
+    },
+    "independent_helpers": {
+      "cell_index_zero_based": 109,
+      "source_lines_inclusive": [
+        [
+          1,
+          73
+        ]
+      ],
+      "original_cell_sha256": "a1e627ef509b3e3785e7d96ad7e98199c138950c0fdf98582f925d0f7ed52430",
+      "ported_sha256": "63780dc79ec28d1ac28c9c9d40f65763fdc2897c0a473d44c7b8a8de50bcf9bb",
+      "replacements": []
+    },
+    "independent_bank": {
+      "cell_index_zero_based": 109,
+      "source_lines_inclusive": [
+        [
+          74,
+          77
+        ]
+      ],
+      "original_cell_sha256": "a1e627ef509b3e3785e7d96ad7e98199c138950c0fdf98582f925d0f7ed52430",
+      "ported_sha256": "4b95c2a71ca22207d5b86b45bc9a5a871ac9c0de4c35bfbf1d48397bddf3b1a1",
+      "replacements": []
+    },
+    "rank_sweep": {
+      "cell_index_zero_based": 111,
+      "source_lines_inclusive": [
+        [
+          1,
+          36
+        ],
+        [
+          54,
+          57
+        ]
+      ],
+      "original_cell_sha256": "d30e57b7ff794546546f41e7dc2a4a17a0322d64178166c88703610321ef4a8d",
+      "ported_sha256": "bfc15f111923ca7d2e42d56007aaa4c00bf3653b9b432a8f8f70297167a3e0f4",
+      "replacements": []
+    },
+    "cfo_reconstruction": {
+      "cell_index_zero_based": 113,
+      "source_lines_inclusive": [
+        [
+          1,
+          129
+        ],
+        [
+          156,
+          163
+        ]
+      ],
+      "original_cell_sha256": "13fed3b5255c2ff9deef425f975261bdff762b66f862ce1a627ee88f577c63bf",
+      "ported_sha256": "df659ba21667f0922c548ee0359d582a4a86564c3d23bf099fa07fbec14a817f",
+      "replacements": []
+    },
+    "coarse_fine": {
+      "cell_index_zero_based": 115,
+      "source_lines_inclusive": [
+        [
+          1,
+          65
+        ],
+        [
+          80,
+          81
+        ]
+      ],
+      "original_cell_sha256": "2f2cb8585100c91515a21a5971c34717b13bad8ef09dd901066a5118da35eba4",
+      "ported_sha256": "96592c14418d1f357d2271280120f052456efc3f1a194a27f2064c4f26c4715b",
+      "replacements": []
+    },
+    "intersection": {
+      "cell_index_zero_based": 117,
+      "source_lines_inclusive": [
+        [
+          1,
+          102
+        ]
+      ],
+      "original_cell_sha256": "0a3a9bea0d0e0641461ef473fe89de97997b439128203dddcaa141613963d18b",
+      "ported_sha256": "377ffb3ac807fc0349af48f186c92d8f35045ba73a99fdfb2f1f8c94ed6dce94",
+      "replacements": []
+    },
+    "comparison_setup": {
+      "cell_index_zero_based": 121,
+      "source_lines_inclusive": [
+        [
+          1,
+          107
+        ]
+      ],
+      "original_cell_sha256": "2849276cb5b0e346df50a6132fa13266ec988eef8775094d933f5f6f44b6c79d",
+      "ported_sha256": "02b2e5518bbf9cd25ec6d840a644abf4f6463827df9b2f6cf51a5f92b6c4c1bb",
+      "replacements": [
+        {
+          "old": "from IPython.display import display",
+          "new": "# display is supplied by the CLI runner"
+        },
+        {
+          "old": "COMP_DIR = ROOT / \"Reproduction_Work\" / \"results\" / \"comparative_baselines_ablation\"",
+          "new": "COMP_DIR = RUN_DIR / \"comparative_baselines_ablation\""
+        }
+      ]
+    },
+    "comparison_helpers": {
+      "cell_index_zero_based": 123,
+      "source_lines_inclusive": [
+        [
+          1,
+          71
+        ]
+      ],
+      "original_cell_sha256": "6d5de1c2ebf65856bbccd91ec4764b111ed06efe466fa9eb9e807ffc8e831e70",
+      "ported_sha256": "2d17015c907f6f21497b4a04f4154c7b8d8a36cfb6daefdcb9c731853dedc1d1",
+      "replacements": []
+    },
+    "ablation": {
+      "cell_index_zero_based": 123,
+      "source_lines_inclusive": [
+        [
+          72,
+          154
+        ]
+      ],
+      "original_cell_sha256": "6d5de1c2ebf65856bbccd91ec4764b111ed06efe466fa9eb9e807ffc8e831e70",
+      "ported_sha256": "cfe36a0cedcb415d6a7a738f31a0cddf4a7baf1b07087907093f053dc00cc968",
+      "replacements": []
+    },
+    "cube_setup": {
+      "cell_index_zero_based": 125,
+      "source_lines_inclusive": [
+        [
+          1,
+          93
+        ]
+      ],
+      "original_cell_sha256": "2be7e6b64ef31fa4bec591c98c072299db4180eb53e25fa1fa50c1e4898013f3",
+      "ported_sha256": "667acd571bf36eb436c6edc68b69cc14f2846e66f4ce3176f92114d28640a094",
+      "replacements": []
+    },
+    "cube_flat": {
+      "cell_index_zero_based": 125,
+      "source_lines_inclusive": [
+        [
+          94,
+          139
+        ]
+      ],
+      "original_cell_sha256": "2be7e6b64ef31fa4bec591c98c072299db4180eb53e25fa1fa50c1e4898013f3",
+      "ported_sha256": "a77a0cfb8d608b28040eff5227857477c38ede9323539d69ddd4424339efeaa5",
+      "replacements": []
+    },
+    "hwi_setup": {
+      "cell_index_zero_based": 127,
+      "source_lines_inclusive": [
+        [
+          1,
+          88
+        ]
+      ],
+      "original_cell_sha256": "74f53d9bc4e3c934a6a6bf8d7928eebe51c22d939ae615333d9751a19d7232b4",
+      "ported_sha256": "f51026cd80af817aa0db218547052ed2421dce4c39ac540f4190a4fbeebb8fd1",
+      "replacements": []
+    },
+    "hwi_flat": {
+      "cell_index_zero_based": 127,
+      "source_lines_inclusive": [
+        [
+          89,
+          140
+        ]
+      ],
+      "original_cell_sha256": "74f53d9bc4e3c934a6a6bf8d7928eebe51c22d939ae615333d9751a19d7232b4",
+      "ported_sha256": "9719b9ea6cb56e922f2e08345ebc4b229b256ce32748a02aa5a866eab5486bf3",
+      "replacements": []
+    },
+    "mocz_helpers": {
+      "cell_index_zero_based": 129,
+      "source_lines_inclusive": [
+        [
+          1,
+          191
+        ]
+      ],
+      "original_cell_sha256": "8f91ac81106a9622a9bd3ba0af8ce8dd9812fbb99ae020f741a79b3ad99a003e",
+      "ported_sha256": "5cb197fd28c6bfbb91cb8140f6a0b3c9e5a575102f8df313b2fffa01f01b624f",
+      "replacements": []
+    },
+    "mocz_radius": {
+      "cell_index_zero_based": 130,
+      "source_lines_inclusive": [
+        [
+          1,
+          60
+        ]
+      ],
+      "original_cell_sha256": "f8471285277eb57cc04582c82c750f1106af9b7839f9efb0170059105c862684",
+      "ported_sha256": "9a1a37fb18bc454bef9469e8a12be5377e5de827a92e37343ba266097f58cb25",
+      "replacements": []
+    },
+    "normalization": {
+      "cell_index_zero_based": 133,
+      "source_lines_inclusive": [
+        [
+          3,
+          6
+        ]
+      ],
+      "original_cell_sha256": "2bea390c47042b40c0f3ef3e1425253935d3f3d85c173cdffbc0707bb17e18a2",
+      "ported_sha256": "9c6a4c70d368032cb5177ad09b661f058907482ec4477b36a714058871bac7c8",
+      "replacements": []
+    },
+    "line_helpers": {
+      "cell_index_zero_based": 135,
+      "source_lines_inclusive": [
+        [
+          43,
+          55
+        ],
+        [
+          57,
+          67
+        ]
+      ],
+      "original_cell_sha256": "a2c3cc1c80086e3b296acf7b846ef0634abbdbd9b62f613ca122358620e71452",
+      "ported_sha256": "dd38688aedf6663618ebff7f5da5951ce9cfc8551678f17447cb4686d604fd2e",
+      "replacements": []
+    },
+    "two_tap_helpers": {
+      "cell_index_zero_based": 137,
+      "source_lines_inclusive": [
+        [
+          3,
+          16
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          31,
+          46
+        ]
+      ],
+      "original_cell_sha256": "f5a27625f35e40ebd820e92843b9d846eb70d9966309931462b0a7832d8458f6",
+      "ported_sha256": "9409a1f72a6fd76effc902c0d048118b01e027a490569395a7127041c5d106a0",
+      "replacements": []
+    },
+    "closest_hwi": {
+      "cell_index_zero_based": 135,
+      "source_lines_inclusive": [
+        [
+          1,
+          177
+        ],
+        [
+          180,
+          184
+        ],
+        [
+          202,
+          220
+        ]
+      ],
+      "original_cell_sha256": "a2c3cc1c80086e3b296acf7b846ef0634abbdbd9b62f613ca122358620e71452",
+      "ported_sha256": "3c931981ef595f469041a63c13c24bd73b243a5707a80d6cd204b32df045051f",
+      "replacements": []
+    },
+    "matrix_setup": {
+      "cell_index_zero_based": 141,
+      "source_lines_inclusive": [
+        [
+          1,
+          136
+        ]
+      ],
+      "original_cell_sha256": "1d38aad94bc3f4557bb8b56780d8cf0ef7049348b7f694a162f6b71152c3ca8d",
+      "ported_sha256": "0f55f7fdc3bc7715e30b05ccb816554c9b31583434c812ccd4f9dcc4dad82393",
+      "replacements": []
+    },
+    "matrix_run": {
+      "cell_index_zero_based": 143,
+      "source_lines_inclusive": [
+        [
+          1,
+          196
+        ]
+      ],
+      "original_cell_sha256": "3498d95cbc115f7eedf6b52fe534e46293e8690e32175e00e32230afb946d770",
+      "ported_sha256": "6a4b09c8d383ad68427a015ff9b60bbdfe09411badacb769a3b52278795d829d",
+      "replacements": []
+    },
+    "matrix_statistics": {
+      "cell_index_zero_based": 147,
+      "source_lines_inclusive": [
+        [
+          1,
+          35
+        ]
+      ],
+      "original_cell_sha256": "9f17d192d6ea54c811d95a8fbec048a6067b9157e0109f8eb2473b8b29d1f227",
+      "ported_sha256": "976db73950384646da5fdbfb601e058679a63bca2bd185f3e39331234f485b3d",
+      "replacements": []
+    }
+  }
+}

@@ -1,0 +1,4 @@
+snr_db,seed,method,PER,blocks,channel_uses,payload_bits,bits_per_channel_use
+10,13,"SQM flat quotient, L=16",0.05,100,16,8,0.5
+10,13,"Cube-Split CS(4,1), 16-sample isometric embedding",0.09,100,16,8,0.5
+10,13,"Cube-Split CS(4,1), native T=4",0.32,100,4,8,2.0

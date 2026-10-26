@@ -1,0 +1,6 @@
+cfo_range_deg_per_sample,method,PER_mean,PER_95CI_halfwidth,blocks
+0.0,independent validation equation-based SQM reconstruction,0.034,0.0029809652542125025,7500
+2.0,independent validation equation-based SQM reconstruction,0.04133333333333333,0.011168494556772298,7500
+4.0,independent validation equation-based SQM reconstruction,0.0424,0.007760694303534065,7500
+8.0,independent validation equation-based SQM reconstruction,0.05213333333333333,0.016155173463917368,7500
+12.0,independent validation equation-based SQM reconstruction,0.058,0.003974620338950006,7500

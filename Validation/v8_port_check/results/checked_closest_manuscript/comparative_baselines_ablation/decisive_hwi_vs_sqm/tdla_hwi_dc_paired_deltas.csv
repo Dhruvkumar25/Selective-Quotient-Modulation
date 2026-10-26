@@ -1,0 +1,11 @@
+snr_db,competitor,mean_delta_PER_competitor_minus_SQM,paired_95CI_halfwidth,seeds
+5,HWI-Grassmannian + centered CFO-search line ML,0.06041666666666665,0.012927862531841815,3
+5,HWI-Grassmannian + matched selective quotient r=3,0.027499999999999997,0.01888802474212987,3
+7,HWI-Grassmannian + centered CFO-search line ML,0.07833333333333335,0.03406266744513096,3
+7,HWI-Grassmannian + matched selective quotient r=3,0.02958333333333334,0.0280039934077737,3
+10,HWI-Grassmannian + centered CFO-search line ML,0.10458333333333332,0.022029950799541845,3
+10,HWI-Grassmannian + matched selective quotient r=3,0.021249999999999995,0.005378315912389089,3
+12,HWI-Grassmannian + centered CFO-search line ML,0.10166666666666667,0.01972049167876001,3
+12,HWI-Grassmannian + matched selective quotient r=3,0.00875,0.019391793797762766,3
+15,HWI-Grassmannian + centered CFO-search line ML,0.12916666666666665,0.01897291516869732,3
+15,HWI-Grassmannian + matched selective quotient r=3,0.006666666666666667,0.014342175766370919,3

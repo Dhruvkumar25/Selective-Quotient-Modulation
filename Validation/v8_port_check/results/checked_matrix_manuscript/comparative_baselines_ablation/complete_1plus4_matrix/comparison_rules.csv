@@ -1,0 +1,21 @@
+panel,scheme,receiver,hardware_calibration
+A: flat clean,SQM,quotient decoder,none
+A: flat clean,HWI-Grassmannian,noncoherent line ML,none
+A: flat clean,Cube-Split,noncoherent line ML,none
+A: flat clean,SE-MOCZ,source-model Gaussian marginal ML,none
+A: flat clean,IM-MOCZ,DiZeT + majority vote,none
+B: flat + HWI,SQM,centered quotient + CFO search,none
+B: flat + HWI,HWI-Grassmannian,centered CFO-search line ML,none
+B: flat + HWI,Cube-Split,centered CFO-search line ML,none
+B: flat + HWI,SE-MOCZ,source-model Gaussian marginal ML,oracle front-end cleanup
+B: flat + HWI,IM-MOCZ,DiZeT + majority vote,oracle front-end cleanup
+C: two-tap clean,SQM,matched rank-4 two-tap quotient,none
+C: two-tap clean,HWI-Grassmannian,matched rank-4 two-tap quotient,none
+C: two-tap clean,Cube-Split,matched rank-4 two-tap quotient,none
+C: two-tap clean,SE-MOCZ,two-tap Gaussian marginal ML,none
+C: two-tap clean,IM-MOCZ,two-tap DiZeT + majority vote,none
+D: two-tap + HWI,SQM,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,HWI-Grassmannian,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,Cube-Split,matched rank-4 two-tap quotient + CFO search,none
+D: two-tap + HWI,SE-MOCZ,two-tap Gaussian marginal ML,oracle front-end cleanup
+D: two-tap + HWI,IM-MOCZ,two-tap DiZeT + majority vote,oracle front-end cleanup

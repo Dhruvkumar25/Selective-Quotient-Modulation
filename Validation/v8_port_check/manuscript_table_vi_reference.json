@@ -1,0 +1,37 @@
+{
+  "source": "Manuscript/Selective_Quotient_Modulation_Comparative_Revision_Blue.pdf",
+  "source_sha256": "e4c0daddc9b90e80800c2e0dc0e138ffa78d93a929788294bd399d3db4ea0f8a",
+  "source_location": "Table VI, page 10, 16-page supplied comparative draft",
+  "snr_db": 10,
+  "rounding_tolerance": 5.1e-05,
+  "values": {
+    "A: flat clean": {
+      "SQM": 0.1067,
+      "HWI-Grassmannian": 0.0793,
+      "Cube-Split": 0.189,
+      "SE-MOCZ": 0.123,
+      "IM-MOCZ": 0.2253
+    },
+    "B: flat + HWI": {
+      "SQM": 0.1107,
+      "HWI-Grassmannian": 0.105,
+      "Cube-Split": 0.691,
+      "SE-MOCZ": 0.1187,
+      "IM-MOCZ": 0.217
+    },
+    "C: two-tap clean": {
+      "SQM": 0.098,
+      "HWI-Grassmannian": 0.15,
+      "Cube-Split": 0.8683,
+      "SE-MOCZ": 0.2093,
+      "IM-MOCZ": 0.3233
+    },
+    "D: two-tap + HWI": {
+      "SQM": 0.1087,
+      "HWI-Grassmannian": 0.155,
+      "Cube-Split": 0.83,
+      "SE-MOCZ": 0.208,
+      "IM-MOCZ": 0.3387
+    }
+  }
+}

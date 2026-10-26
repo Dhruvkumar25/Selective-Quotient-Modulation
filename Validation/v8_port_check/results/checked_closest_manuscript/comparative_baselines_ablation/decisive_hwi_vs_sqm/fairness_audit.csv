@@ -1,0 +1,10 @@
+quantity,SQM,HWI-Grassmannian
+payload bits,8,8
+messages,256,256
+complex samples,16,16
+mean codeword energy,16.0,16.0
+multipath,fractional TDL-A,fractional TDL-A
+CFO support,"[-4,4] deg/sample","[-4,4] deg/sample"
+I/Q model,"static real 2x2, cond=1.5","static real 2x2, cond=1.5"
+DC model,same random draw,same random draw
+AWGN,same random draw,same random draw

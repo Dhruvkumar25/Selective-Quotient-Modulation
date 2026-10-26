@@ -1,0 +1,8 @@
+method,mean,std,count,95CI_halfwidth_t_df2
+S2_SNR_class_lookup,0.0,0.0,3,0.0
+S3_window_confidence,200.0,0.0,3,0.0
+S4_window_confidence_residual,200.0,0.0,3,0.0
+S5_EWMA_confidence_residual,200.0,0.0,3,0.0
+S6_confidence_triggered_refinement,125.66666666666667,19.877402021167427,3,49.37820397426124
+S7_ACK_UCB_optional,162.44444444444443,72.59119424201175,3,180.32652316435647
+S8_regime_oracle_rank,0.0,0.0,3,0.0

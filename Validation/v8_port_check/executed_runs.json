@@ -1,0 +1,98 @@
+[
+  {
+    "run": "checked_math",
+    "task": "math",
+    "mode": "smoke",
+    "status": "completed",
+    "elapsed_seconds": 1.9937405586242676,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_intersection_smoke",
+    "task": "intersection",
+    "mode": "smoke",
+    "status": "completed",
+    "elapsed_seconds": 0.6111147403717041,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_adaptive",
+    "task": "adaptive",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 13.270983934402466,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_matrix_manuscript",
+    "task": "matrix",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 49.88404583930969,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_closest_manuscript",
+    "task": "closest-hwi",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 71.27596521377563,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_rank_manuscript",
+    "task": "rank",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 25.07985258102417,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_cfo_manuscript",
+    "task": "cfo",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 15.087798595428467,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_coarse-fine_manuscript",
+    "task": "coarse-fine",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 2.2037508487701416,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_margins_manuscript",
+    "task": "margins",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 14.508405685424805,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_sensitivity_manuscript",
+    "task": "sensitivity",
+    "mode": "manuscript",
+    "status": "completed",
+    "elapsed_seconds": 12.585419416427612,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_cube-flat_smoke",
+    "task": "cube-flat",
+    "mode": "smoke",
+    "status": "completed",
+    "elapsed_seconds": 1.0992577075958252,
+    "historical_inputs_unchanged": true
+  },
+  {
+    "run": "checked_hwi-flat_smoke",
+    "task": "hwi-flat",
+    "mode": "smoke",
+    "status": "completed",
+    "elapsed_seconds": 1.3837320804595947,
+    "historical_inputs_unchanged": true
+  }
+]
